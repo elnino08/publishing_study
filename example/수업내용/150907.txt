@@ -1,0 +1,89 @@
+<h1>
+
+tr
+td
+th
+
+margin
+padding
+
+overflow
+
+auto일때 overflow:hidden
+width와 height 값을 지정했을때 overflow:hidden
+
+
+
+
+class에의한 박스 
+tr td th 박스?
+
+
+
+
+overflow:visible
+
+
+jsfiddle.net/swupx05y/1 비접근성
+jsfiddle.net/swupx05y/2	접근성
+
+
+
+
+line-height:줄간격
+font-size:글씨 크기
+color:글씨색상
+
+
+
+오후 수업
+
+
+
+grid
+
+
+
+오른쪽에 끝까지 사진이 차지 않을때
+
+
+
+grid{overflow: hidden}
+grid ul{width:★106%★}
+grid li
+grid li div
+grid li div img
+
+
+????
+margin top-fist child
+first-child
+last-child
+position
+????
+
+
+clear 속성
+
+both
+
+left
+
+right
+
+
+
+
+?clear는 마진이 제대로? 적용이 안된다?
+보이는것만 밑으로보인다
+
+
+left    200 200  left
+right	200 200  ★clear:left★ float:left	
+footer  400 400  margin-left:200
+
+
+
+
+line-height
+

@@ -1,0 +1,219 @@
+비접근성 코딩
+
+접근성 코딩
+
+
+.firstview .view img{width:100%}
+
+h1 퍼스트 차일드?
+
+편집기
+w
+숫자 편집(방향키=1씩, 시프트+방향키=10씩)
+
+
+
+그리드
+
+width:105%?
+
+margin
+
+first-child?
+
+
+kmc8301@gmail.com
+
+jsfiddle:md9zas91
+jsfiddle:nq26eykh
+
+
+
+-HTML-
+
+display
+
+inline-text
+block-layout
+
+
+
+css 
+
+inline
+block
+none
+inline-block
+list
+table
+table-cell
+	
+
+block:한칸다
+
+inline:개체에 크기만큼{
+
+span{border:1px
+
+}
+
+display 기능
+block이라도 디스플레이에서 inline으로 바꾸면 바뀐다
+
+
+
+block은 width를 height를 사용할수 있지만
+span?inline?은 width를 height를 사용할수 없다.
+
+
+			     css
+		block			inline
+padding		o			   o(실제위치와는 다를수 있다.)	 
+wid,hei		o			   x
+
+
+
+
+
+
+
+
+inline-block
+
+inline과 block의 장점
+width,height 조절가능
+align도 사용가능
+호환성이 떨어짐
+
+
+크로스 브라우징
+display:inline-block;
+
+
+불필요하게 여백이 생길때
+
+div{*display:inline; *zoom:1; ★font-size:12px;} 부모에서 정의한다
+
+body{text-align:center; ★font-size:0;
+
+
+
+li와 ul
+
+
+
+list-item
+
+
+
+
+table과 table-cell
+
+
+text-align:
+
+vertical-align:
+
+
+
+vertical은 inline상태에서만
+
+inline은 height값이 없다
+
+inline은 line-height로 
+
+
+
+<div> 
+   <span>sdfsdf</span>
+</div>
+
+
+div{display:table;}
+
+span{display:table-cell; verticla-align:middle}
+
+
+
+
+
+
+list item과 block은 핵심은 같다
+
+
+
+
+
+오후수업
+
+
+
+
+포지션
+
+
+
+
+포지션의 속성 4가지
+
+position: static
+	  relative
+	  absoulte
+	  fixed
+
+
+
+top
+left
+right
+bottom
+z-index
+
+
+position:relative; top:200px > top과 left만 사용가능
+
+
+
+
+
+position:absolute > 값을 전부다 먹는다. float과 같이 자신이 밑에 있으면 위로 못올라간다
+
+앱솔루트를 설정하는순간 뜬다.
+
+나보다 위에있는것으로는 못올라간다.
+
+위치가 절대적으로 잡힌다(width,height값이 없어도)
+
+
+
+
+
+position:fixed;
+
+
+
+
+absoulte 중앙으로
+
+
+z-index ????
+
+형제들간의 높이지 부모 자식간에는 아니다.
+
+
+
+
+다른데서 가가가가가르쳐쳐쳐주지않는
+
+
+
+포지션을 부모요소에 적용하면
+그밑에 오버플로우 히든이 먹히지 않는다? 
+
+
+
+
+
+
+
+

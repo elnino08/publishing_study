@@ -1,0 +1,151 @@
+
+캐스캐이딩
+
+●저작자우선운
+●명시도순
+●순차순
+
+
+저작자 우선순 > w3c??? >
+
+저작자 우선순 바꾸기?
+
+
+<p>text<p>
+
+최초제작자보다 최근에 바꾼것이 우선자이다???
+
+
+
+클래스 - 2
+id     - 1  
+
+
+<!-- <p class="classbox" id="idbox">text</p> -->
+<p class="classbox1 classbox2" id="idbox">text</p>
+
+
+
+p.classbox{color:purple}
+
+/* #idbox{color:green} */
+.classbox{color:#00F}
+p{color:#F00}
+
+
+
+
+●순차순
+
+인터프리터
+
+p{color:#F00 !important}
+p{color:#FF0}
+
+
+저작자가 우선 more than 순서
+
+
+box모델
+백그라운드
+레이아웃 float,position
+line-height
+vertical-heights
+display
+캐스케이딩
+
+
+
+
+font-size:px,pt
+font-family: 서체를 바꿈, '돋움' '띄워쓰기가있는경우'
+font-weight: bold;
+font-style: italic
+
+자간 letter-spacing:1pt
+
+글씨정리 word-break: break-all 
+
+
+word-spacing:10pt(단어 간격)
+
+
+line-height: 170% 줄간격 170~180정도가 적정
+p{
+  line-height: 170%
+  font-size:12px	
+}
+
+p strong{color:#333}
+
+text-align:justify(양옆에 텍스트가 정리된다._
+
+
+
+w3cschools.com
+
+
+
+
+조건주석문
+
+
+<!?[if !IE]> <![endif]?> ie브라우저가 아닐 경우
+<!?[if IE]> <![endif]?> ie브라우저일 경우
+<!?[if IE 8]> <![endif]?> ie8 브라우저
+<!?[if IE 7]> <![endif]?> ie7 브라우저
+<!?[if IE 6]> <![endif]?> ie6 브라우저
+<!?[if lt IE 8]> <![endif]?> ie8미만 브라우저
+<!?[if lte IE 8]> <![endif]?> ie8이하 브라우저
+<!?[if gt IE 8]> <![endif]?> ie8초과 브라우저
+<!?[if gteIE 8]> <![endif]?> ie8이상 브라우저
+
+lt:<
+rt:>
+
+
+
+http://jsfiddle.net/d0y3ok09/1/
+
+개발자도구 
+
+firebug
+
+jquery firebug와
+
+
+파이어폭스 
+
+3dview 체크
+
+
+
+
+상속
+
+
+텍스트관련(o)
+
+inherit 상속받음
+initial 상속받지않음
+
+
+
+
+iframe(아이프레임)
+
+.view*
+
+color:initial;
+font-size:initial;
+
+
+자바스크립트 239p
+
+
+
+
+
+
+
+

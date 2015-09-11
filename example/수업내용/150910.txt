@@ -1,0 +1,312 @@
+html:5 젠코딩
+
+헤더는 상단
+섹션은 중간
+푸터는 하단
+
+섹션에는 아티클이 들어간다
+ul에 li가 들어가듯이
+
+
+<link rel="stylesheet" href="subject10" />
+<section class="border" id="subject10.css">
+
+
+코스트의 최소화
+
+id의 사용법
+
+
+
+
+
+{display:inline-block;}
+
+
+
+마진 겹침 현상 해결
+
+패딩을 적용하던가 or overflow:hidden을 하던가
+
+
+
+display-block을 쓴다.
+
+span은 width height 를 적용하지 못한다
+
+
+
+255자 이상은 안나온다 alt=
+
+
+
+
+a 태그?
+
+
+글씨 12
+
+전체 19
+
+12/19*100
+
+
+
+span은 width height 를 적용하지 못한다
+(단 float을 준뒤에는 width height값을 적용할수있다.)
+
+
+
+... 만드는 법
+
+3가지
+white-space: nowrap; 
+text-overflow:ellipsis; 
+overflow:hidden
+
+단점은 한줄이상 표현이 안된다.
+
+
+
+height는 박스크기를 조정할때
+
+
+
+
+vertical 수치
+
+
+리스트에서 글자는 line-height
+위치조정은 vertical-align
+
+
+<div><span>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span></div>
+
+
+
+div{border:1px #F00 solid; line-height:24px}
+span{vertical-align:-10pt}
+
+vertical도 수치가 들어갈수 있다.
+양수는 업 음수는 다운
+
+
+
+
+
+line-height와 vertical-align과의 관계???????
+
+
+익스플로러7,8에서 오차가 날 수 있다.
+별을
+
+
+
+클래스 2개 섞에서 쓰는 법
+
+
+
+<li class="thumb top>
+
+
+
+
+<li class="
+
+
+
+
+
+
+
+
+<body>
+.sublist li.thumb span{
+	diplay:block;
+	width: 
+	height:
+	border:1px #F00 solid;
+	
+ }
+
+
+.sublist li.thumb span + a{
+
+line-height:100%
+display:block;
+margi-top:3px; 
+border:1px red solid;
+height:26px
+overflow:hidden;
+white-space:normal;
+
+
+
+.sublist li.thumb{
+	width:
+	height:
+
+}
+</body>
+
+
+.sublist li.thumb{
+	width:
+	height:
+	padding:6px; 12px; 
+	background:
+
+}
+
+
+.sublist li.thumb.top{
+	margin-top:-5px
+
+}
+
+
+
+.sublist li.thumb.bottom{
+	clear:right
+
+
+
+바텀 밑에 클래스에게
+.sublist li.bottom~li{
+	
+	/font-size:14px;
+	font-weight:bold;/
+	
+	/font:14px/22px bold !important/
+
+	
+	
+	line-height:29px
+	letter-spacing: -1pt;
+	margin-right:130px
+}
+
+option
+
+<div class="hotnews dotlist-style">
+<h2><img src>
+
+
+
+<ul class="txtstyle">
+
+
+
+<li class="hot-point"
+
+
+
+<li><a href="#"></li>
+
+
+<img src=""/>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+css
+
+.hot-point{color:red}
+.list-point{color:blue}
+
+
+.hotlist li{padding-left:10px;}
+
+
+
+.dotlist-style li{
+	background:url()
+
+
+
+
+
+div
+   <ul>
+	<li>
+	<img src="" alt=" "/>
+	<p><a href="">text</a><p>
+
+
+
+
+gridlist li{
+gridlist li img{
+
+.gridlist li p{position:absolute; color:white; bottom:0px; opacity:.5 >
+
+
+absolute로 띄운다.
+
+
+
+
+
+display{block{적용
+
+
+
+
+li에 오버플로우 히든 적용
+
+
+
+
+opacity 적용되지 않을때
+
+포토샵으로 png24 로저장
+
+
+background-image:url("images/transparent_bg.png") 
+
+이미지를 못불러오는 이유?
+
+../images/.jpg
+
+../나가서 
+
+
+오늘의중요
+
+height와 line-height를 확실히 구분한다.
+
+height는 padding과 margin때문에 폰트는 line-height를 쓴다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
