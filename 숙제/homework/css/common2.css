@@ -1,0 +1,32 @@
+*{margin:0; padding;0}
+body{
+	color:red;
+	font-size;12px;
+	font-family:dotum;
+	
+}
+
+a{
+	text-decoration: none;
+	color:inherit
+	}
+
+a:hover{
+	color:black;
+}
+
+ul,ol{list-style;none;}
+
+body{
+	background-image:url("http://static.naver.net/newsstand/img/20121231/bg_bd.png")
+	}
+	
+.wrap{
+	width:900px; 
+	height:540px; 
+	 
+	margin: 0 auto;
+	background:url("http://static.naver.net/newsstand/img/20121231/bg_panel.png") no-repeat;
+	padding:10px 18px;
+	/*line-height:164%*/
+	}	

@@ -1,0 +1,79 @@
+*{margin:0px; padding:0px;}
+ul,ol{list-style: none;}
+
+
+.wrap, .topnews, .top, .sctp, .news{border:1px solid; color:black;}
+.wrap{width:900px; height:540px; margin: 0 auto}
+.top{width:840px; height:111px; margin: auto 25px; position:relative; float:left;}
+.top .sctp{width;840px; height:25px; margin-top:86px;}
+
+.container{width:840px; height:380px; border:1px solid; color:red; position:relative;  float:left;}
+
+.topnews{width:245px; height:380px; float:left; overflow:hidden; background-color:#EEEEEE; margin-left:20px;
+		line-height: 110%}
+.topnews>ul>li:first-child p{overflow:hidden; font-size: 14px;}
+.topnews li:last-child p{font-size: 11px}
+.topnews .photonews1{width:116px; height:95px; border:1px black solid; overflow:hidden; font-size: 11px;
+white-space: nowrap; text-overflow: ellipsis; float:left}
+.topnews .photonews1 img{width:100%; height:80%}
+
+.topnews .photonews2{width:116px; height:95px; border:1px black solid; overflow:hidden; font-size: 11px;
+white-space: nowrap; text-overflow: ellipsis; float:left; margin-left:8px;}
+.topnews .photonews2 img{width:100%; height:80%;}
+
+
+
+
+
+.news{width:323px; height: 380px; margin-left:260px; float:left;}
+
+.news .subnews1{width:313px; height:80px; margin-bottom: 7px; border:1px red solid; overflow:hidden;}
+.news .subnews1 img{width:100px; height:78px; float:left;}
+.news .subnews1 ul>li{line-height: 150%;}
+.news .subnews1 ul>li:first-child+li+li{font-size:11px;}
+
+.news .subnews2{width:313px; height:80px; margin-bottom: 7px;}
+.news .subnews2 ul>li{line-height: 150%;}
+.news .subnews2 ul>li:first-child+li{font-size:11px;}
+
+
+.news .majornews{width:313px; height:200px; margin-bottom: 3px; background-color: gray;}
+.news .majornews>ul>li{font-size: 12px; margin-left:23px; margin-top:11px; list-style:circle}
+
+
+.bulletin{width:261px; height:380px; float:left;}
+
+.bulletin li{
+	float:left; 
+	width:124px; 
+	height:75px; 
+	/*position:relative; */
+	overflow:hidden
+	}
+.bulletin li img{width:100%; width:124px; height:75px;}
+
+.bulletin li p{
+	
+	
+	width:116px; height:26px;
+	position:absolute; 
+	color:#FFF;
+	bottom:0px; 
+	width: 100%;
+	
+	
+}
+
+/*.bulletin li>a:first-child+a+a+a{width:116px; height:50px;}*/
+
+
+
+
+.bulletin ul>li{margin-left:2px; width:126px; height:112px; border:.5px black solid;}
+
+.bulletin li p a{
+	display:block; 
+	margin: 0 5px; 
+	
+	}
+

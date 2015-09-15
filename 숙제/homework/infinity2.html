@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		
+
+		<title>infinity</title>
+		 <style>
+		 
+		 *{margin:0; padding:0}
+		 ul,li{list-style: none;}
+		 div{border:1px red solid}
+		 
+		 .wrapper{width:600px; height:600px; border:1px red solid; margin:auto}
+		 .box1{width:500px; height:500px; border:1px red solid; margin:50px}
+		 .box2{width:400px; height:400px; border:1px red solid; margin:50px}
+		 .box3{width:300px; height:300px; border:1px red solid; margin:50px}
+		 .box3>ul>li{border:1px blue solid; width:98px; height:98px; float:left;}
+		 .box3>ul>li:first-child+li+li+li+li{background:yellow}
+		 .box3>ul>li>ul{height:100%;}
+		 .box3>ul>li>ul>li{width:33.3%; height:33.3%; float:left}
+		 .box3>ul>li>ul>li:first-child+li+li+li+li{background-color:red}
+		 
+		 .box3>ul>li>ul>li a{ height:10%; border:1px green solid; display:block }
+		</style>
+		
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<div class="box1">
+				<div class="box2">
+					<div class="box3">
+						<ul>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li>
+								<ul>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+									<li><a href=""></a></li>
+								</ul>
+								</li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+	    </div>
+	</body>
+</html>
