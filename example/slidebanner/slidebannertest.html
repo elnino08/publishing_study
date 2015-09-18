@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+    <style>
+    *{margin:0px; padding:0px;}
+    ul{list-style: none;}
+    img{vertical-align: top; }
+    .slide{width: 350px; height: 400px; margin:0 auto; background-color:black; position: relative;}
+    .slide button{position:absolute; z-index: 1; top:50%; background-color: transparent; border:0}
+    .slide button.next{left:0px}
+    .slide button.prev{right:0px}
+    .slide li {border: 1px #F00 solid; width:310px; margin:20px; position:absolute; top:0; text-align:center;}
+    .slide li.on{display:block}
+    .slide li p{margin-top:20px; color:#FFF}
+    .slide div{height:330px;}
+    /*.slide div img{width: 100%}*/
+
+
+    </style>
+
+</head>
+
+<body>
+<div class="slide">
+  <button class="prev"><a href=""><img src="D:\UIUX_Joon\study\example\slidebanner\skykey.png"/></a></button>
+  <button class="next"><a href=""><img src="D:\UIUX_Joon\study\example\slidebanner\whitekey.png"/></a></button>
+
+    <ul>
+      <li>
+        <div><img src="D:\UIUX_Joon\study\example\slidebanner\bpimg.png" alt=""></div>
+        <p>text</p>
+      </li>
+      <li>
+        <div><img src="" alt=""></div>
+        <p>text</p>
+      </li>
+      <li>
+        <div><img src="" alt=""></div>
+        <p>text</p>
+      </li>
+    </ul>
+</div>
+
+</body>
+</html>

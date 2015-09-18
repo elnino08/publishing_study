@@ -1,0 +1,34 @@
+
+
+
+.banne li>div{
+positio:absolute
+}
+
+
+.baner li>div>img{width: 100%
+
+}
+
+.banner li>a{position: relative; z-index: 1; display:block; width:20px; height:20px; float:right;
+
+ clear:right; border:1px #F00 solid;} /블락을 주는 이유 위드 헤이트값을 주기위해/
+
+.banner li{border:1px #F00 solid text-align:right}
+
+
+.banner li first-chile{margin-top:40px;}
+
+
+
+a
+div
+
+div안에 a를 집어넣으면 적용하기 힘들다
+
+
+깃허브 강사님 거 연동
+
+깃허브 홈페이지 > https://github.com/kimminchul/publihsing_study > 오른쪽 및 클론url보사>
+clone/new > 주소 넣기 >그리고 폴더 선택 > 연동완료
+

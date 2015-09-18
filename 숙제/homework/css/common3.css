@@ -2,14 +2,14 @@
 ul,ol{list-style: none;}
 
 
-.wrap, .topnews, .top, .sctp, .news{border:1px solid; color:black;}
-.wrap{width:900px; height:540px; margin: 0 auto}
-.top{width:840px; height:111px; margin: auto 25px; position:relative; float:left;}
+.wrap, .topnews, .top, .sctp, .news{border:1px solid black;}
+.wrap{width:900px; height:540px; margin: 0 auto; border: 1px red solid;}
+.top{width:840px; height:111px; margin: 0 auto; border: 1px red solid}
 .top .sctp{width;840px; height:25px; margin-top:86px;}
 
-.container{width:840px; height:380px; border:1px solid; color:red; position:relative;  float:left;}
+.container{width:840px; height:380px; border:1px solid red; margin-left:28px;}
 
-.topnews{width:245px; height:380px; float:left; overflow:hidden; background-color:#EEEEEE; margin-left:20px;
+.topnews{width:245px; height:380px; float:left; overflow:hidden; background-color:#EEEEEE; margin-right:5px;
 		line-height: 110%}
 .topnews>ul>li:first-child p{overflow:hidden; font-size: 14px;}
 .topnews li:last-child p{font-size: 11px}
@@ -24,8 +24,7 @@ white-space: nowrap; text-overflow: ellipsis; float:left; margin-left:8px;}
 
 
 
-
-.news{width:323px; height: 380px; margin-left:260px; float:left;}
+.news{width:313px; height: 380px; margin-right:5px; float:left;}
 
 .news .subnews1{width:313px; height:80px; margin-bottom: 7px; border:1px red solid; overflow:hidden;}
 .news .subnews1 img{width:100px; height:78px; float:left;}
@@ -41,7 +40,7 @@ white-space: nowrap; text-overflow: ellipsis; float:left; margin-left:8px;}
 .news .majornews>ul>li{font-size: 12px; margin-left:23px; margin-top:11px; list-style:circle}
 
 
-.bulletin{width:261px; height:380px; float:left;}
+.bulletin{width:260px; height:380px; float:left;}
 
 .bulletin li{
 	float:left; 

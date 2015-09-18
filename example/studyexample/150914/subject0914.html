@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>mark-up</title>
+ 	 <style>
+	 *{margin:0px; padding:0px;}
+	 div{border:1px gray solid;}
+	 .wrap{width:1400px; height:1655px; margin:0px auto;}
+	 ul,li{list-style: none}
+	 img{vertical-align: top;}
+
+
+
+	 .top{width:1400px; height:210px; float:left}
+	 .top .textbox{float:left; position:absolute; margin-left:900px; margin-top:8px}
+	 .top .searchicon{float:right; position:absolute; margin-left:1180px;}
+	 .top .cubebridge{margin-left:209px; margin-top:55px;}
+	 .top .cubebridge2{width:280px; height:400px; border:1px red;}
+
+
+	 .top .menubar{ margin-left:210px; margin-top:60px; height:15px;  width:1187px;}
+
+	 .top .menubar ul>li{float:left;}
+	 .top .menubar ul>li>div>ul>li{}
+
+
+
+	 .top .goodfoodbox{float:left; margin-top:30px; margin-right:200px; position:absolute; margin-left:550px;}
+	 .top .toptext{float:left; margin-right:20px; margin-top:-10px; position:absolute; margin-left:1000px;}
+	 .top .toptext2{float:left; margin-right:20px; margin-top:10px; position:absolute; margin-left:1000px; font-size: 12px; color:gray; }
+	 .top .topcircle{float:left; margin-right:160px; border:none; margin-top:-55px; position:absolute; margin-left:1200px;}
+	 .top .colorchip{float:left; border:none; margin-right:160px; margin-top:-70px; margin-left:1350px; position: absolute; }
+
+
+
+	 .content{width:1400px; height:1385px; overflow:hidden; }
+
+
+	 .content .up{height:345px; float:left}
+	 .content .up .background{float:left; margin-top:41px; background-attachment: fixed; margin-left:0px;}
+	 .content .up .topbar{position:absolute; float:left;}
+	 .content .up .topbartext{position:absolute; float:left; border:none; margin-left:400px; font-size:30px; margin-top:18px;}
+	 .content .up .topbartext a{margin-right:30px; width:100%;}
+
+	 .content .up .background .toptext{float:left; position:absolute; margin-left:600px; margin-top:90px;}
+	 .content .up .background .toptext li:first-child+li{margin-top:10px;}
+
+	 .content .up .background .rightbox{float:left; position:absolute; margin-left:900px; margin-top:-7px;}
+	 .content .up .background .cubebotton{float:left; position:absolute; margin-left:980px; margin-top:260px;}
+
+	 .content .center{width:1400px; height:450px;float:left;}
+
+	 .content .center .centerimagetop{float:left;}
+	 .content .center .centerimagebottom{float:left;}
+
+
+	 .content .down{width:1400px; height:495px; float:left; }
+	 .content .logo{width:1400px; height:95px; float:left;}
+
+
+	 .content .up .background .circle{position:absolute; float:left; border:none; margin-top:270px; margin-left:500px;}
+
+
+	 .center{background-color: #e7e7e7; float:left;}
+	 .center_box{margin-top:30px;}
+	 .center_top ul{width: 720px; height: 175px; border:1px purple solid; padding:0px; float:left; margin-left:200px;}
+	 .center_top ul>li{float: left;}
+
+	 .center_bottom ul{width: 720px; height: 175px; border:1px purple solid; padding:0px; float:left; margin-left:200px;}
+	 .center_bottom ul>li{float: left;}
+
+	 .center div>ul>li{font-size: 12px; text-align: center; margin-right: 10px;}
+	 .center div>ul>li img{width:165px; height:130px;}
+
+	.cubebridge{margin-top:-190px; margin-left:50px;}
+
+
+
+	.bunch{border:1px #F00 solid; width:278px; height:106px; margin:5px 58px; position:relative; float:left;}
+	.bunch button{position:absolute; top:50%; background-color: transparent; border: 0 none;}
+	.bunch button.next{left:235px}
+	.bunch button.prev{right:235px;}
+	.bunch .rap{border:1px #F00 solid; margin:10px;  overflow:hidden; }
+	.bunch .rap ul{width:732px; margin-left: -40px}
+	.bunch .rap li{width:80px; height:80px; float:left;  margin: 3 2.5px}
+	.bunch .rap li div{border:1px #F00 solid;}
+	.bunch .rap li p{color:#000; text-align:center; line-height:0px; font-size:12px; margin-top:4px;}
+	.bunch .rap li img{width:80px; height:70px;}
+
+
+
+	 .slide{width: 360px; height: 400px; margin-left: 200px; background-color:black; position:relative; border: 1px red solid}
+	 .slide button{position:absolute; z-index: 1;  background-color: transparent; border:0}
+ 	 .slide button.next{left:0px}
+ 	 .slide button.prev{right:0px}
+
+ 	 .slide li {width:290px; height:350px; margin-left:-5px; position:absolute;  text-align:center;}
+ 	 .slide li.on{display:block}
+ 	 .slide li p{margin-top:20px; color:#FFF}
+ 	 .slide div{height:332px; }
+	 .slide ul>li>div>img{width:290px; height:350px;}
+
+
+
+
+	.down_top ul{width: 600px; height: 175px; border:1px purple solid; padding:0px; float:left; margin-left:30px;}
+	.down_top ul>li{float: left;}
+
+	.down_bottom ul{width: 600px; height: 175px; border:1px purple solid; padding:0px; float:left; margin-left:30px;}
+	.down_bottom ul>li{float: left;}
+
+	.down div>ul>li{font-size: 12px; text-align: center; margin-right: 10px; width:135px; height:140px;}
+
+    .footer{width:1400px; height:60px;}
+ </style>
+
+</head>
+
+
+
+<body>
+
+
+		<div class="wrap">
+
+			<div class="top">
+
+				<input type ="text" value="" class="textbox"  style="width:260px "/>
+
+				<a href=""><img src="images/searchicon.png" / class="searchicon"></a>
+
+				<img src="images/graytopbar.png" />
+
+				<a href=""><img src="images/cubebridge.png"/ class="cubebridge"></a>
+
+				<ul class="toptext">
+					<li class="img"><img src="images/eventarea.png" />
+					</li>
+				</ul>
+
+				<div class="colorchip">
+					<img src="images/colorchip.png" />
+				</div>
+
+				<div class="topcircle">
+					<p><img src="images/skycircle.png" style="display: block"/>
+					</p>
+					<p><img src="images/graycircle.png" style="display: block"/>
+					</p>
+					<p><img src="images/graycircle.png" style="display: block"/>
+					</p>
+					<p><img src="images/graycircle.png" style="display: block"/>
+					</p>
+				</div>
+
+				<ul class="toptext2">
+					<li>
+						예쁜 아이콘과 함께
+						<br>
+						이 곳에 이벤트를 넣는 것은
+						<br>
+						어떨까요?! <a href="">View</a>
+					</li>
+				</ul>
+
+				<a href=""><img src="images/goodfood.png" class="goodfoodbox"/></a>
+
+				<div class="menubar">
+						<ul>
+							<li><a href="#"><img src="images/portfoliobox.png" /></a></li>
+							<li><a href="#"><img src="images/portfoliobox.png" /></a></li>
+							<li><a href="#"><img src="images/productplace.png" /></a></li>
+							<li><a href="#"><img src="images/event.png" /></a></li>
+							<li><a href="#"><img src="images/webzine.png" /></a>
+							<div>
+								<ul>
+									<li><a href="#">eeeeee</a></li>
+									<li><a href="#">ssssss</a>
+										<ul>
+											<li><a href="#">ssssss</a></li>
+											<li><a href="#">sssssss</a></li>
+										</ul>
+									</li>
+									<li><a href="#">eeeee</a></li>
+									<li><a href="#">eeeee</a></li>
+									<li><a href="#">eeee</a></li>
+								</ul>
+							</div>
+
+							</li>
+						</ul>
+
+				</div>
+
+			</div>  <!-- 탑의끝 -->
+
+
+
+
+
+			<div class="content">
+
+				<div class="up">
+
+					<div class=""></div>
+
+
+
+					<div class="topbar">
+
+
+						<img src="images/blacktopbar.png" style="display: block"/>
+						<img src="images/topbluebar.png" style="display: block"/>
+
+					</div>
+
+
+					<div class="topbartext">
+						<a href=""><img src="images/coverstory.png" /></a>
+						<a href=""><img src="images/creatorsnews.png" /></a>
+						<a href=""><img src="images/performance.png" /></a>
+						<a href=""><img src="images/talent.png" /></a>
+
+					</div>
+
+
+					<div class="background">
+
+						<ul class="toptext">
+							<li><img src="images/creatorshotissue.png" /></li>
+							<li><img src="images/kotext.png"/></li>
+						</ul>
+
+
+						<ul class="rightbox">
+							<li><img src="images/noticeboard.png"/>
+							</li>
+						</ul>
+
+						<ul class="cubebotton">
+							<a href="">
+							<li><img src="images/cubebotton.png"/>
+							</li></a>
+						</ul>
+
+
+						<div class="circle">
+							<a href=""><img src="images/graycircle.png"/></a>
+							<a href=""><img src="images/skycircle.png"/></a>
+							<a href=""><img src="images/graycircle.png"/></a>
+							<a href=""><img src="images/graycircle.png"/></a>
+						</div>
+
+
+
+						<div><img src="images/park.png" style="display: block" /></div>
+
+					</div>
+				<!-- 백그라운드끝 -->
+			</div>
+
+
+			<div class="center">
+
+				<div class="center_box">
+					 <div class="center_top">
+						<ul>
+							<li>
+								<a href=""><img src="images/cimg1.png"/></a>
+								<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+							</li>
+							<li>
+								<a href=""><img src="images/cimg2.png"/></a>
+								<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+							</li>
+							<li>
+								<a href=""><img src="images/cimg3.png"/></a>
+								<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+							</li>
+							<li>
+								<a href=""><img src="images/cimg4.png"/></a>
+								<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+							</li>
+						</ul>
+					</div>
+
+
+
+
+					<div class="center_bottom">
+					 <ul>
+						 <li>
+							 <a href=""><img src="images/cimg5.png"/></a>
+							 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+						 </li>
+						 <li>
+							 <a href=""><img src="images/cimg6.png"/></a>
+							 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+						 </li>
+						 <li>
+							 <a href=""><img src="images/cimg7.png"/></a>
+							 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+						 </li>
+						 <li>
+							 <a href=""><img src="images/cimg8.png"/></a>
+							 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+						 </li>
+					 </ul>
+				 </div>
+			</div>
+
+
+								<div class="cubebridge2">
+								<a href=""><img src="images\cubebridgevd.png"/></a>
+							 </div>
+
+
+
+				 				<div class="bunch">
+									<button class="prev"><a href=""><img src="images\whitekey.png"/></a></button>
+				 						<button class="next"><a href=""><img src="images\skykey.png"/></a></button>
+				 						<div class="rap">
+				 							<ul>
+				 								<li>
+				 								<div><a href=""><img src="http://static.naver.net/newsstand/2015/0916/ebuzz/082152/002.jpg" style="display: block"/></a></div>
+				 								<p>[bag]Design Star</p>
+				 								</li>
+
+				 								<li>
+				 								<div><a href=""><img src="http://static.naver.net/newsstand/2015/0916/ebuzz/082152/002.jpg" style="display: block"/></a></div>
+				 								<p>[bag]Design Star</p>
+				 								</li>
+
+				 								<li>
+				 								<div><a href=""><img src="http://static.naver.net/newsstand/2015/0916/ebuzz/082152/002.jpg" style="display: block"/></a></div>
+				 								<p>[bag]Design Star</p>
+				 								</li>
+
+				 								</li>
+				 						</ul>
+				 						</div>
+				 					</div>
+				 					 <!-- 번치끝 -->
+
+
+
+
+
+
+
+				</div>
+				 <!-- 센터끝 -->
+
+
+
+
+
+
+
+				<div class="down">
+
+					<div class="slidetopimg"><img src="images\bestportfolio.png"/></div>
+
+					<div class="slide">
+
+						 <button class="prev"><a href=""><img src="images\skykey.png"/></a></button>
+					 	<button class="next"><a href=""><img src="images\whitekey.png"/></a></button>
+
+						 <ul>
+							 <li>
+								<div><img src="images/bpimg.png" alt=""/></div>
+								 <p>text</p>
+							</li>
+							 <li>
+								 <div><img src="" alt=""></div>
+								 <p>text</p>
+							 </li>
+							 <li>
+								 <div><img src="" alt=""></div>
+								 <p>text</p>
+							 </li>
+						 </ul>
+				 </div>
+
+
+				<div class="down_top">
+				 <ul>
+					 <li>
+						 <a href=""><img src="images/cimg1.png"/></a>
+						 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					 </li>
+					 <li>
+						 <a href=""><img src="images/cimg2.png"/></a>
+						 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					 </li>
+					 <li>
+						 <a href=""><img src="images/cimg3.png"/></a>
+						 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					 </li>
+					 <li>
+						 <a href=""><img src="images/cimg4.png"/></a>
+						 <p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					 </li>
+				 </ul>
+			 </div>
+
+			 <div class="down_bottom">
+				<ul>
+					<li>
+						<a href=""><img src="images/cimg5.png"/></a>
+						<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					</li>
+					<li>
+						<a href=""><img src="images/cimg6.png"/></a>
+						<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					</li>
+					<li>
+						<a href=""><img src="images/cimg7.png"/></a>
+						<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					</li>
+					<li>
+						<a href=""><img src="images/cimg8.png"/></a>
+						<p><a href="">[Fatdoo]<br>사랑은 음악을 타고 총총</a></p>
+					</li>
+				</ul>
+			</div>
+</div>
+
+
+				<div class="logo"></div>
+
+
+
+			</div>
+			<!-- content끝 -->
+
+
+
+			<div class="footer"></div>
+
+		</div>
+		<!-- wrap끝 -->
+
+	</body>
+	</html>

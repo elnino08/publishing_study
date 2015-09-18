@@ -1,0 +1,105 @@
+git 사용법
+
+소스트리 검색 
+
+www.sourcetreeapp.com 
+
+다운받기
+
+http://git-scm.com/
+
+다운받기
+
+www.github.com
+
+
+소스트리 설치 깃설치후 
+
+id 비번 설정 넘겨도됨
+
+
+color repository 복사
+create new repository 생성
+
+
+압타나 > 로컬파일시스템 >프로모트투프로젝트
+
+
+
+터미널
+
+email elninol@naver.com
+username
+
+터미널 경고에 나온 내용대로 명령어를 써서 넣음
+
+
+
+
+
+오후
+
+깃 수업
+
+
+버전관리
+깃과 소스트리 설치
+
+저장소만들기
+버전만들기
+되돌리기 ~ revert
+
+
+브랜치
+
+원격저장소
+
+
+
+
+
+공유하기
+
+깃허브홈페이지에서 뉴 레포지터리 후 완료되면 
+
+소스트리로 가서 세팅에서 remote하고 애드 하고 url/path붙여넣기
+
+username은 등록할때 아이디로 
+
+세팅이 끝나면 push를 실행 마스터 체크하고
+
+
+
+깃허브에서 친구추가
+
+내 저장소메인에서 셋팅
+
+마우스 오른쪽 reset to commit
+
+
+
+
+
+소스트리 > 클론/New > settings > commit > bcommit > push
+
+
+
+포토샵에서 자르기
+
+슬라이스툴로 자른후 > 이름 바꿔주기 > save for web > all slice user >settigs >other > slice name
+빼고 다 none > put image체크풀기 >위치확인하고저장
+
+
+임시로저장하는 이미지는 @를
+
+
+
+
+
+
+
+
+
+
+
+

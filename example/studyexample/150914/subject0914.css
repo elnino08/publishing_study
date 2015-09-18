@@ -1,0 +1,71 @@
+*margin{margin:0px; padding:0px;}
+div{border:1px gray solid;}
+.wrap{width:1400px; height:1655px; margin:0px auto;}
+ul li{list-style: none}
+
+
+
+.top{width:1400px; height:210px; float:left}
+.top .textbox{float:left; position:absolute; margin-left:900px; margin-top:8px}
+.top .searchicon{float:right; position:absolute; margin-left:1180px;}
+.top .cubebridge{margin-left:209px; margin-top:55px;}
+.top .menubar{border:none; margin-left:209px; margin-top:50px; }
+.top .menubar a{margin-right:74px; }
+.top .goodfoodbox{float:left; margin-top:30px; margin-right:200px; position:absolute; margin-left:550px;}
+.top .toptext{float:left; margin-right:20px; margin-top:-10px; position:absolute; margin-left:1000px;}
+.top .toptext2{float:left; margin-right:20px; margin-top:10px; position:absolute; margin-left:1000px; font-size: 12px; color:gray;
+				}
+.top .topcircle{float:left; margin-right:160px; border:none; margin-top:-55px; position:absolute; margin-left:1200px;}
+.top .colorchip{float:left; border:none; margin-right:160px; margin-top:-70px; margin-left:1350px; position: absolute; }
+
+
+
+
+
+
+.content{width:1400px; height:1385px; overflow:hidden;}
+
+
+.content .up{height:345px;}
+.content .up .background{float:left; border:none;}
+.content .up .topbar{position:absolute; float:left;}
+.content .up .topbartext{position:absolute; float:left; border:none; margin-left:400px; font-size:30px;}
+.content .up .topbartext a{margin-right:30px; width:100%;}
+
+.content .up .background .toptext{float:left; position:absolute; margin-left:600px; margin-top:90px;}
+.content .up .background .toptext li:first-child+li{margin-top:10px;}
+
+.content .up .background .rightbox{float:left; position:absolute; margin-left:900px; margin-top:-7px;}
+.content .up .background .cubebotton{float:left; position:absolute; margin-left:980px; margin-top:260px;}
+
+.content .center{width:1400px; height:450px;}
+
+.content .center .centerimagetop{float:left;}
+
+.content .center .centerimagebottom{float:left;}
+
+
+.content .down{width:1400px; height:495px;}
+.content .logo{width:1400px; height:95px;}
+
+
+.content .up .background .circle{position:absolute; float:left; border:none; margin-top:270px; margin-left:500px;}
+
+
+.footer{width:1400px; height:60px;}
+
+
+.center_top ul{width: 700px; height: 175px; border: 1px red solid;}
+
+.center_top ul>li{float: left;}
+
+
+img{vertical-align: top; }
+.slide{width: 350px; height: 400px; margin:0 auto; background-color:black; position: relative;}
+.slide button{position:absolute; z-index: 1; top:50%; background-color: transparent; border:0}
+.slide button.next{left:0px}
+.slide button.prev{right:0px}
+.slide li {border: 1px #F00 solid; width:310px; margin:20px; position:absolute; top:0; text-align:center;}
+.slide li.on{display:block}
+.slide li p{margin-top:20px; color:#FFF}
+.slide div{height:330px;}
